@@ -82,11 +82,11 @@
                     <h6>It is appreciated if you email me.</h6>
                     <div class="form-group">
                         <label for="fname">First Name</label>
-                        <input type="text" class="form-control" name="" placeholder="First name" id="">
+                        <input type="text" class="form-control" required pattern="[A-Za-z/d/.]{4,12}" name="" placeholder="First name" id="">
                     </div>
                     <div class="form-group">
                         <label for="lname">Last Name</label>
-                        <input type="text" class="form-control" name="" placeholder="Last name" id="">
+                        <input type="text" class="form-control" required pattern="[A-Za-z/d/.]{4,12}" name="" placeholder="Last name" id="">
                     </div>
                     <span class="">Gender</span><br>
                     <div class="form-check form-check-inline">
@@ -104,7 +104,7 @@
                     
                     <div class="form-group pt-2">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" placeholder="Your email" name="" id="">
+                        <input type="email" class="form-control" required placeholder="Your email" name="" id="">
                     </div>
 
                     <div class="form-group form-group-inline">
@@ -127,17 +127,17 @@
                     </div>
                     <div class="form-input pb-2">
                         <label for="comment">What do you say?</label>
-                        <textarea name="" class="form-control" rows="8" id="comment" cols="30" placeholder="Say something..."></textarea>
+                        <textarea name="" class="form-control" required rows="8" id="comment" cols="30" placeholder="Say something..."></textarea>
                     </div>
 
                     <div class="form-group pt-2">
                         <label for="email">User name</label>
-                        <input type="email" class="form-control" placeholder="User name" name="" id="" aria-describedby="username">
+                        <input type="email" class="form-control" name="" id="" aria-describedby="username">
                         <small id="username" class="form-text text-muted">It is optional.</small>
                     </div>
                     
-                    <div class="">
-                        <input type="submit" class="btn btn-sm btn-primary float-right">
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-sm btn-primary float-right mb-3">
                     </div>
                 </form>
             </div>
