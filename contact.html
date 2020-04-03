@@ -65,16 +65,81 @@
                 <hr class="my-n1 pb-3">
                 <h2 class="text-center">You can contact me at</h2>
                 <div class="text-center">
-                    <span style="font-size: 3em;"><i class="fab fa-facebook"></i></span>
-                    <span style="font-size: 3em;"><i class="fab fa-instagram"></i></span>
-                    <span style="font-size: 3em;"><i class="fab fa-telegram"></i></span>
-                    <span style="font-size: 3em;"><i class="fab fa-linkedin"></i></span>
+                    <span style="font-size: 3em;"><a href="https://www.facebook.com/semere.talegn" target="_blank"><i
+                                class="fab fa-facebook"></i></a></span>
+                    <span style="font-size: 3em;"><a style="color:#ff5369"
+                            href="https://www.instagram.com/semere627/?hl=en" target="_blank"><i
+                                class="fab fa-instagram"></i></a></span>
+                    <span style="font-size: 3em;"><a href="http://t.me/semere627" target="_blank"><i
+                                class="fab fa-telegram"></i></a></span>
+                    <span style="font-size: 3em;"><a href="https://www.linkedin.com/in/semere-talegngeta-340997195/"
+                            target="_blank"><i class="fab fa-linkedin"></i></a></span>
                 </div>
             </div>
 
             <div class="container">
-                
+                <form action="">
+                    <h6>It is appreciated if you email me.</h6>
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" class="form-control" name="" placeholder="First name" id="">
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" class="form-control" name="" placeholder="Last name" id="">
+                    </div>
+                    <span class="">Gender</span><br>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="male" name="gender" class="form-check-input" name="" id="">
+                        <label for="male" class="form-check-label">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="female" name="gender" class="form-check-input" name="" id="">
+                        <label for="female" class="form-check-label">Female</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="other" name="gender" class="form-check-input" name="" id="" disabled>
+                        <label for="other" class="form-check-label">Other</label>
+                    </div>
+                    
+                    <div class="form-group pt-2">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="Your email" name="" id="">
+                    </div>
 
+                    <div class="form-group form-group-inline">
+                        <label for="country">Country</label>
+                        <select name="" class="form-control-sm" id="">
+                            <option value="Ethiopia">Ethiopia</option>
+                            <option value="">France</option>
+                            <option value="">Germany</option>
+                            <option value="">Kenya</option>
+                            <option value="">Russia</option>
+                            <option value="">South Africa</option>
+                            <option value="">Uganda</option>
+                            <option value="">United Kingdom</option>
+                            <option value="">USA</option>
+                        </select>
+                    </div>
+                    <div class="form-group form-group-inline">
+                        <label for="dateofbirth">Date of Birth</label>
+                        <input type="date" class="form-control-sm">
+                    </div>
+                    <div class="form-input pb-2">
+                        <label for="comment">What do you say?</label>
+                        <textarea name="" class="form-control" rows="8" id="comment" cols="30" placeholder="Say something..."></textarea>
+                    </div>
+
+                    <div class="form-group pt-2">
+                        <label for="email">User name</label>
+                        <input type="email" class="form-control" placeholder="User name" name="" id="" aria-describedby="username">
+                        <small id="username" class="form-text text-muted">It is optional.</small>
+                    </div>
+                    
+                    <div class="">
+                        <input type="submit" class="btn btn-sm btn-primary float-right">
+                    </div>
+                </form>
             </div>
         </div>
 
