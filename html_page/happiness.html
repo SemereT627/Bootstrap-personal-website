@@ -1,91 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semere Talegngeta</title>
-    <link rel="icon" href="../assets/images/icons/circle-cropped.png">
-</head>
-<body>
-    <!-- All container -->
-    <div id = "container">
-        <!-- the head division -->
-        <div id = "head">
-            <table align="center" cellpadding="10">
-               <tr>
-                   <!-- Links -->
-                   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                   </td>
-                   <td>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="../quotes.html">Quotes</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="index.html">Home</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="../gallery.html">Gallery</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="../contact.html">Contact</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="">About</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="">My first website</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <hr>
-                    <h1><big>Quotes that I like</big></h1>
-                    <h2 id="categories"><big>Categories</big></h2>
-                    
-                   
-                   </td>
-                   <td>
-                    <table align="center" cellpadding="30" cellspacing="20">
-                        <tr>
-                            <td colspan="10"></td>
-                        </tr>
-                    </table>
-                   </td>
-               </tr>
-              
-            </table>
-        </div>
-        <!-- Main division -->
+    <title>Semere Talegngeta | Happiness Quotes</title>
+    <link rel="icon" href="/assets/images/icons/circle-cropped.png">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <style>
+        .row {
+            zoom: 150%;
+        }
 
-        <div>
-        <table align="center">
-            <tr>
-                <td>
-                    <table align="center" cellpadding="145">
-                        <tr>
-                            <td colspan="10"></td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <div id = "quotes">
-                        <div id = "happiness">
-                            <h1>Happiness <a href=""><img src="assets/images/icons/happiness.jpg" alt="" width="20" height="20"></a></h1>
-                        </div>
-                        <div>
-                            <img src="assets/images/happiness1.jpg" alt="" width="600" height="500">
-                            <img src="assets/images/happiness2.jpg" alt="" width="600" height="500">
-                            <img src="assets/images/happiness3.jpg" alt="" width="600" height="500">
-                        </div>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            font-family: "Lato", sans-serif;
+        }
+
+        button[type="button"] {
+            background-color: #eeeeee;
+        }
+
+        #android,
+        #web,
+        #aait {
+            text-decoration: none;
+        }
+
+        .nav-item {
+            font-family: 'Open Sans', sans-serif;
+            font-size: .85rem;
+            line-height: 1rem;
+            color: #00b6fe;
+        }
+
+        .hapinstude div a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .hapinstude div p {
+            color: black;
+        }
+
+        .hapinstude div:hover {
+            background-color: #eee;
+
+        }
+
+        .hapinstude div p:hover {
+            color: #aaa;
+        }
+
+        .hapinstude div h2 a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-6">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#"></a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon small"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse px-auto justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active small text" style="color: #004aff;" href="/quotes.html">Quotes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link small text-primary" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link small text-primary" href="/gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link small text-primary" href="/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link small text-primary" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link small text-primary" href="">My first website</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container">
+                <hr class="my-n1 pb-3">
+                <h1>Quotes that I like</h1>
+                <h2>Categories</h2>
+
+                <div id="happiness">
+                    <div>
+                        <h3>Happiness</h3>
+                        <img class="w-100 pb-2 shadow" src="assets/images/happiness1.jpg" alt="">
+                        <img class="w-100 pb-2 shadow" src="assets/images/happiness2.jpg" alt="">
+                        <img class="w-100 pb-2 shadow" src="assets/images/happiness3.jpg" alt="">                
                     </div>
-                </td>
-                <td>
-                    <table cellpadding="140">
-                        <tr>
-                            <td colspan="10"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-           
-        </table> 
+                </div>
+
+                
+            <div class="container">
+                <hr class="my-4">
+                <p class="text-center" style="font-size: 12px; font-family: 'PT-serif',serif; opacity: 0.5;">&copy;
+                    Semere Talegngeta, 2020 | You are
+                    looking great
+                    today.</p>
+            </div>
+
+
+        </div>
+        <div class="col-md-3">
+
+        </div>
     </div>
 
-
-
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
