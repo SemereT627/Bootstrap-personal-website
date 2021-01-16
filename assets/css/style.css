@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --contact-cancel: 400px;
+    --quote-cancel: 45%; 
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.row {
+    zoom: 150%;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+}
+
+#android,
+#web,
+#aait {
+    text-decoration: none;
+}
+
+button[type="button"] {
+    background-color: #eeeeee;
+}
+
+.nav-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .85rem;
+    line-height: 1rem;
+    color: #00b6fe;
+}
+
+
+
+
+/*  */
+
+.sidebar {
+    position: absolute;
+    top: 25%;
+    left: -40px;
+    width: 40px;
+    height: 10em;
+    transition: all .5s ease;
+    margin-left: 10px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+ul li:hover a {
+    padding-left: 3px;
+}
+
+#check {
+    display: none;
+}
+
+label #btn,
+label #cancel {
+    position: absolute;
+    cursor: pointer;
+}
+
+label #btn {
+    left: 15px;
+    top: 25%;
+    font-size: 16px;
+    color: blue;
+    transition: all .5s ease;
+}
+
+label #cancel {
+    left: -25px;
+    top: 45%;
+    font-size: 16px;
+    color: blue;
+    transition: all .5s ease;
+}
+
+#check:checked~.sidebar {
+    left: 0px;
+}
+
+#check:checked~label #btn {
+    left: 90px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked~label #cancel {
+    left: 52px;
+}
+
+
+#android,
+#web,
+#aait {
+    text-decoration: none;
+}
+
+.hapinstude div a {
+    text-decoration: none;
+    color: black;
+}
+
+.hapinstude div p {
+    color: black;
+}
+
+.hapinstude div:hover {
+    background-color: #eee;
+
+}
+
+.hapinstude div p:hover {
+    color: #aaa;
+}
+
+.hapinstude div h2 a:hover {
+    color: #007bff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Lato", sans-serif;
+}
+
+button[type="button"] {
+    background-color: #eeeeee;
+}
+
+.nav-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .85rem;
+    line-height: 1rem;
+    color: #00b6fe;
+}
+
+.status {
+    font-size: 10px;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+}
+
+.myclass a {
+    text-decoration: none;
+    color: black;
+}
+
+.myclass h3 a:hover {
+    color: #007bff;
+
+}
