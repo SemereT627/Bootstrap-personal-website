@@ -5,11 +5,6 @@
     text-decoration: none;
 }
 
-:root{
-    --contact-cancel: 400px;
-    --quote-cancel: 45%; 
-}
-
 body {
     overflow-x: hidden;
 }
@@ -38,11 +33,6 @@ button[type="button"] {
     line-height: 1rem;
     color: #00b6fe;
 }
-
-
-
-
-/*  */
 
 .sidebar {
     position: absolute;
@@ -86,7 +76,7 @@ label #btn {
     left: 15px;
     top: 25%;
     font-size: 16px;
-    color: blue;
+    color: #0275d8;
     transition: all .5s ease;
 }
 
@@ -94,7 +84,7 @@ label #cancel {
     left: -25px;
     top: 45%;
     font-size: 16px;
-    color: blue;
+    color: #0275d8;
     transition: all .5s ease;
 }
 
@@ -121,7 +111,14 @@ label #cancel {
 
 .hapinstude div a {
     text-decoration: none;
-    color: black;
+    color:#212529
+
+}
+
+.hapinstude div a:hover {
+    text-decoration: none;
+    color:#0275d8;
+
 }
 
 .hapinstude div p {
@@ -137,9 +134,7 @@ label #cancel {
     color: #aaa;
 }
 
-.hapinstude div h2 a:hover {
-    color: #007bff;
-}
+
 
 h1,
 h2,
@@ -178,4 +173,15 @@ p {
 .myclass h3 a:hover {
     color: #007bff;
 
+}
+
+.home-heading{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+
+}
+
+.font-weight-bold{
+    color: #212529;
 }
