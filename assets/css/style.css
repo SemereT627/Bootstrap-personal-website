@@ -191,5 +191,11 @@ p {
 }
 
 .card-body{
-    padding: 5px;
+    padding: 0 10px 0 10px;
 }
+
+#cardHome .col-md-4{
+    padding-left: 0;
+    padding-right: 0;
+}
+
